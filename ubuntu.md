@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ubuntu 怎样系列
+title: Ubuntu系列
 ---
 
 <p class="message">
@@ -8,3 +8,4 @@ title: Ubuntu 怎样系列
 </p>
 
 * [新Ubuntu开发环境的准备](/2013/08/10/ubuntu-devenv/)
+* [Ubuntu上装Python3](/2016/09/11/installing-python3/)
