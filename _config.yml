@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Angzhou
+tagline:          ''
+host:             '0.0.0.0'
+description:      '一些帮助性的技术短文'
+url:              http://help.angzhou.com
+baseurl:          /
+
+author:
+  name:           '昂舟科技'
+  url:            https://angzhou.com/
+
+paginate:         10
+
+# Custom vars
+version:          0.1.0
+
+github:
+  repo:           https://github.com/angzhou/angzhou.github.io

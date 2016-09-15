@@ -1,2 +1,5 @@
 # angzhou.github.io
-blog/wiki/docs
+
+一些帮助性的技术短文
+
+网址为: http://help.angzhou.com/
