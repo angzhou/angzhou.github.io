@@ -88,7 +88,7 @@ TaskWarrior网站上的taskd下载此时(2016/9/3)是1.1.0，有些老，我们�
     task config taskd.key -- ~/.task/your_name.key.pem
     task config taskd.ca -- ~/.task/ca.cert.pem
     task config taskd.server  -- your_server:53589
-    task config taskd.credentials -- Public/wensheng/new_user_key
+    task config taskd.credentials -- Public/your_name/new_user_key
 
 your_server仍是vars里CN的域名或IP.
 
