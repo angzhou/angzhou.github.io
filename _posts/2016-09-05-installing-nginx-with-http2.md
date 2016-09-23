@@ -13,9 +13,9 @@ tags: nginx
 下面以用户下downloads目录为例，下载1.0.2h版openssl：
 
     cd ~/downloads
-    wget https://www.openssl.org/source/openssl-1.0.2h.tar.gz
-    tar xfz openssl-1.0.2h.tar.gz
-    cd openssl-1.0.2h/
+    wget https://www.openssl.org/source/openssl-1.0.2i.tar.gz
+    tar xfz openssl-1.0.2i.tar.gz
+    cd openssl-1.0.2i/
     ./config --prefix=/usr/local --openssldir=/usr/local/openssl
     make depend
     make
@@ -38,7 +38,7 @@ tags: nginx
     --user=nobody \
     --group=nogroup \
     --with-http_ssl_module \
-    --with-openssl=/home/yourname/downloads/openssl-1.0.2h \
+    --with-openssl=/home/yourname/downloads/openssl-1.0.2i \
     --with-http_v2_module \
     --with-http_gzip_static_module \
     --with-http_auth_request_module  \
