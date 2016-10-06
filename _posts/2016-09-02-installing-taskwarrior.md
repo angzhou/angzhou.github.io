@@ -8,10 +8,17 @@ tags: task
 
 ### 准备
 
+Ubuntu:
+
     sudo apt-get install pkg-config autoconf autogen cmake
     sudo apt-get install uuid-dev libgmp-dev libreadline-dev
 
-### 装nettle>=3.1
+Mac:
+
+    brew install gnutls
+    brew install cmake
+
+### 装nettle>=3.1 (Mac不需要)
 
     wget https://ftp.gnu.org/gnu/nettle/nettle-3.1.tar.gz
     tar xfz nettle-3.1.tar.gz
@@ -20,7 +27,7 @@ tags: task
     make
     sudo make install
 
-### 装gnutls 3.5.4
+### 装gnutls 3.5.4 (Mac不需要)
 
     wget ftp://ftp.gnutls.org/gcrypt/gnutls/v3.5/gnutls-3.5.4.tar.xz
     tar xfJ gnutls-3.5.4.tar.xz
@@ -28,6 +35,7 @@ tags: task
     ./configure --with-included-libtasn1 --without-p11-kit
     make
     sudo make install
+
 
 ### 装taskwarrior 2.5.1
 
@@ -55,3 +63,13 @@ tags: task
     task project:GF
 
 具体使用方法看[文档](https://taskwarrior.org/docs/)。
+
+### 安装tasksh
+
+    wget http://taskwarrior.org/download/tasksh-latest.tar.gz
+    tar xfz tasksh-latest.tar.gz
+    cd tasksh-1.1.0/
+    cmake -DCMAKE_BUILD_TYPE=release .
+    make
+    sudo make install
+
