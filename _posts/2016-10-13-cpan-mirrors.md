@@ -42,3 +42,5 @@ tags: perl
     o conf urllist push http://cpan.sarang.net/
 
 push也可用unshift代替，push是加到后面，unshift是加到前面。
+
+如果要用其他镜像代替现有镜像，则不要push或unshift就可以了。
