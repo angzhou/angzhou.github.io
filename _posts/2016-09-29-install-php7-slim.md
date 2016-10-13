@@ -79,6 +79,7 @@ Fedora和Ubuntu16.04用Systemd，可以加：
 
 ##安装使用Slim和slim-skeleton
 
+    composer config -g repo.packagist composer https://packagist.phpcomposer.com  # 用国内镜像
     composer create-project slim/slim-skeleton myproj
     cd myproj/
     php -S 0.0.0.0:8003 -t public public/index.php
