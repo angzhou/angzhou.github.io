@@ -57,6 +57,8 @@ Bugzilla是Perl写的，一般系统里都有Perl，所以不需另外安装。
 
 运行：
 
+    unset PERL_MB_OPT  # 保证不被安装到/root
+    unset PERL_MM_OPT  # 保证不被安装到/root
     ./checksetup.pl
     ./install-module.pl DateTime
     ./install-module.pl DateTime::TimeZone
