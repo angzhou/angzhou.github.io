@@ -20,6 +20,8 @@ Mac:
 
 ### 装nettle>=3.1 (Mac不需要)
 
+Ubuntun > 16.04 只需： `sudo apt install nettle-dev`
+
     wget https://ftp.gnu.org/gnu/nettle/nettle-3.1.tar.gz
     tar xfz nettle-3.1.tar.gz
     cd nettle-3.1/
@@ -28,6 +30,8 @@ Mac:
     sudo make install
 
 ### 装gnutls 3.5.4 (Mac不需要)
+
+Ubuntun > 16.04 只需： `sudo apt install gnutls-bin`
 
     wget ftp://ftp.gnutls.org/gcrypt/gnutls/v3.5/gnutls-3.5.4.tar.xz
     tar xfJ gnutls-3.5.4.tar.xz
@@ -38,6 +42,8 @@ Mac:
 
 
 ### 装taskwarrior 2.5.1
+
+Ubuntun > 16.04 只需： `sudo apt install task`
 
     wget https://taskwarrior.org/download/task-2.5.1.tar.gz
     tar xzf task-2.5.1.tar.gz
