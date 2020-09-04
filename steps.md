@@ -2,9 +2,10 @@
 
 ## Dependencies - install Ruby, bundler and nodejs
 
-    sudo apt-add-repository ppa:brightbox/ruby-ng
-    sudo apt-get update
-    sudo apt-get install ruby2.3 ruby2.3-dev
+    # sudo apt-add-repository ppa:brightbox/ruby-ng  # no longer needed in 16.04
+    # sudo apt-get update
+    # sudo apt-get install ruby2.3 ruby2.3-dev  # in 16.04, default is 2.3
+    sudo apt-get install ruby ruby-dev
     sudo gem install bundler
 
 If not already installed, download and install nodejs binary from nodejs.org
